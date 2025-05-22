@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+header {
+  background-color: #004d2d;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 1.8em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #aec4ad;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.sobre, .servicos, .contato {
+  padding: 40px 0;
+}
+
+.lista-servicos {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.lista-servicos li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #004d2d;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
